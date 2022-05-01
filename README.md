@@ -16,7 +16,7 @@ A Novel Transfer Learning Framework with Prototypical Representation based Pairw
 # Training 
 * PR-PL model definition file: model_PR_PL.py 
 * Pipeline of the PR-PL: implementation_PR_PL.py
-* implementation of domain adversarial traing: Adversarial.py
+* implementation of domain adversarial training: Adversarial.py
 # Usage
 * After modify setting (path, etc), just run the main function in the implementation_PR_PL.py
 # Acknowledgement
