@@ -18,7 +18,7 @@ A Novel Transfer Learning Framework with Prototypical Representation based Pairw
 * Pipeline of the PR-PL: implementation_PR_PL.py
 * implementation of domain adversarial traing: Adversarial.py
 # Usage
-* After modify setting (path, etc), just run the function main in the implementation_PR_PL.py
+* After modify setting (path, etc), just run the main function in the implementation_PR_PL.py
 # Acknowledgement
 * The implementation code of domain adversarial traing is bulit on the [dalib](https://dalib.readthedocs.io/en/latest/index.html) code base 
 # Citation
