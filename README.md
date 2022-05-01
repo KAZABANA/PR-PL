@@ -28,7 +28,7 @@ If you find our work helps your research, please kindly consider citing our pape
   
   url = {https://arxiv.org/abs/2202.06509},
   
-  author = {Zhou, Rushuang and Zhang, Zhiguo and Yang, Xin and Fu, Hong and Zhang, Li and Li, Linling and Huang, Gan and Dong, Yining and Li, Fali and Liang, Zhen},
+  author = {Zhou, Rushuang and Zhang, Zhiguo and Fu, Hong and Zhang, Li and Li, Linling and Huang, Gan and Dong, Yining and Li, Fali and Yang, Xin and Liang, Zhen},
   
   keywords = {Human-Computer Interaction (cs.HC), FOS: Computer and information sciences, FOS: Computer and information sciences},
   
