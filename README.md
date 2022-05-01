@@ -7,8 +7,8 @@ A Novel Transfer Learning Framework with Prototypical Representation based Pairw
 * Python 3.7
 * Pytorch 1.3.1
 * Numpy 1.20.3
-* Scikit-learn:0.23.2
-* scipy:1.3.1
+* Scikit-learn 0.23.2
+* scipy 1.3.1
 
 # Preliminaries
 * Prepare dataset: [SEED](https://bcmi.sjtu.edu.cn/~seed/index.html) and [SEED-IV](https://bcmi.sjtu.edu.cn/~seed/index.html)
