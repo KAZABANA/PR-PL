@@ -1,3 +1,5 @@
+A Novel Transfer Learning Framework with Prototypical Representation based Pairwise Learning for Cross-Subject Cross-Session EEG-Based Emotion Recognition
+=
 * A Pytorch implementation of our paper "A Novel Transfer Learning Framework with Prototypical Representation based Pairwise Learning for Cross-Subject Cross-Session EEG-Based Emotion Recognition".<br> 
 * [arxiv](https://arxiv.org/abs/2202.06509)
 
