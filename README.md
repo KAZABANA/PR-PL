@@ -20,7 +20,7 @@ A Novel Transfer Learning Framework with Prototypical Representation based Pairw
 # Usage
 * After modify setting (path, etc), just run the main function in the implementation_PR_PL.py
 # Acknowledgement
-* The implementation code of domain adversarial traing is bulit on the [dalib](https://dalib.readthedocs.io/en/latest/index.html) code base 
+* The implementation code of domain adversarial training is bulit on the [dalib](https://dalib.readthedocs.io/en/latest/index.html) code base 
 # Citation
 If you find our work helps your research, please kindly consider citing our paper in your publications.
 @misc{https://doi.org/10.48550/arxiv.2202.06509,
