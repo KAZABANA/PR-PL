@@ -6,6 +6,7 @@ A Novel Transfer Learning Framework with Prototypical Representation based Pairw
 # Installation:
 * Python 3.7
 * Pytorch 1.3.1
+* NVIDIA CUDA 9.2
 * Numpy 1.20.3
 * Scikit-learn 0.23.2
 * scipy 1.3.1
