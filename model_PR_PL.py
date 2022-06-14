@@ -62,10 +62,11 @@ class discriminator(nn.Module):
             {"params": self.fc2.parameters(), "lr_mult": 1},
                   ]
          return params 
-class Domain_adaption_model(nn.Module):##PR-PL model
+class Domain_adaption_model(nn.Module):
    def __init__(self,hidden_1,hidden_2,hidden_3,hidden_4,num_of_class,low_rank,max_iter,upper_threshold,lower_threshold):
        super(Domain_adaption_model,self).__init__()
        self.fea_extrator_f= feature_extractor(hidden_1,hidden_2)
+       self.fea_extrator_g= feature_extractor(hidden_3,hidden_4)
        self.U=nn.Parameter(torch.randn(low_rank,hidden_2),requires_grad=True)
        self.V=nn.Parameter(torch.randn(low_rank,hidden_4),requires_grad=True)
        self.P=torch.randn(num_of_class,hidden_4)
@@ -262,12 +263,14 @@ class Domain_adaption_model(nn.Module):##PR-PL model
        params = [
             {"params": self.fea_extrator_f.fc1.parameters(), "lr_mult": 1},
             {"params": self.fea_extrator_f.fc2.parameters(), "lr_mult": 1},
+            {"params": self.fea_extrator_g.fc1.parameters(), "lr_mult": 1},
+            {"params": self.fea_extrator_g.fc2.parameters(), "lr_mult": 1},
             {"params": self.U, "lr_mult": 1},
             {"params": self.V, "lr_mult": 1},
                 ]
        return params  
    
-class Domain_adaption_model_withoutproto(nn.Module):## PR-PL model without prototypical learning
+class Domain_adaption_model_withoutproto(nn.Module):
    def __init__(self,hidden_1,hidden_2,hidden_3,hidden_4,num_of_class,low_rank,max_iter,upper_threshold,lower_threshold):
        super(Domain_adaption_model_withoutproto,self).__init__()
        self.fea_extrator_f= feature_extractor(hidden_1,hidden_2)
