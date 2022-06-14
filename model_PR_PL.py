@@ -267,7 +267,7 @@ class Domain_adaption_model(nn.Module):##PR-PL model
                 ]
        return params  
    
-class Domain_adaption_model_withoutproto(nn.Module):## PR-PL model withour prototypical learning
+class Domain_adaption_model_withoutproto(nn.Module):## PR-PL model without prototypical learning
    def __init__(self,hidden_1,hidden_2,hidden_3,hidden_4,num_of_class,low_rank,max_iter,upper_threshold,lower_threshold):
        super(Domain_adaption_model_withoutproto,self).__init__()
        self.fea_extrator_f= feature_extractor(hidden_1,hidden_2)
