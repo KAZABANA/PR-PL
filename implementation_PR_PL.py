@@ -121,18 +121,18 @@ def get_dataset(test_id,session): ## dataloading function, you should modify thi
         else:
             feature = scio.loadmat(info_)['dataset_session3']['feature'][0,0]
             label = scio.loadmat(info_)['dataset_session3']['label'][0,0]
-        feature_list.append(min_max_scaler.fit_transform(feature).astype('float32'))
-        one_hot_label_mat=np.zeros((len(label),3))
+        feature_list.append(min_max_scaler.fit_transform(feature).astype('float32')) # Variable 'feature' is a [3394, 310] DE feature matrix from SEED dataset.
+        one_hot_label_mat=np.zeros((len(label),3)) # Variable 'one_hot_label_mat' is a [3394, 3] ground-truth matrix from SEED dataset.
         for i in range(len(label)):
-            if label[i]==0:
+            if label[i]==0: # '0' refers to '-1 (negative emotion)' in SEED 
                 one_hot_label=[1,0,0]
                 one_hot_label=np.hstack(one_hot_label).reshape(1,3)
                 one_hot_label_mat[i,:]=one_hot_label
-            if label[i]==1:
+            if label[i]==1: # '1' refers to '0 (neutral emotion)' in SEED 
                 one_hot_label=[0,1,0]
                 one_hot_label=np.hstack(one_hot_label).reshape(1,3)
                 one_hot_label_mat[i,:]=one_hot_label
-            if label[i]==2:
+            if label[i]==2: # '2' refers to '1 (positive emotion)' in SEED 
                 one_hot_label=[0,0,1]
                 one_hot_label=np.hstack(one_hot_label).reshape(1,3)
                 one_hot_label_mat[i,:]=one_hot_label
