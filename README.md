@@ -1,6 +1,6 @@
 PR-PL: A Novel Transfer Learning Framework with Prototypical Representation based Pairwise Learning for EEG-Based Emotion Recognition
 =
-* A Pytorch implementation of our paper "PR-PL: A Novel Transfer Learning Framework with Prototypical Representation based Pairwise Learning for EEG-Based Emotion Recognition".<br> 
+* A Pytorch implementation of our paper "PR-PL: A Novel Prototypical Representation Based Pairwise Learning Framework for Emotion Recognition Using EEG Signals." <br> 
 * [arxiv](https://arxiv.org/abs/2202.06509)
 
 # Installation:
@@ -24,20 +24,12 @@ PR-PL: A Novel Transfer Learning Framework with Prototypical Representation base
 * The implementation code of domain adversarial training is bulit on the [dalib](https://dalib.readthedocs.io/en/latest/index.html) code base 
 # Citation
 If you find our work helps your research, please kindly consider citing our paper in your publications.
-@misc{https://doi.org/10.48550/arxiv.2202.06509,
-  doi = {10.48550/ARXIV.2202.06509},
-  
-  url = {https://arxiv.org/abs/2202.06509},
-  
-  author = {Zhou, Rushuang and Zhang, Zhiguo and Fu, Hong and Zhang, Li and Li, Linling and Huang, Gan and Dong, Yining and Li, Fali and Yang, Xin and Liang, Zhen},
-  
-  keywords = {Human-Computer Interaction (cs.HC), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
-  title = {PR-PL: A Novel Transfer Learning Framework with Prototypical Representation based Pairwise Learning for EEG-Based Emotion Recognition},
-  
-  publisher = {arXiv},
-  
-  year = {2022},
-  
-  copyright = {arXiv.org perpetual, non-exclusive license}
-}
+@ARTICLE{10160130,
+  author={Zhou, Rushuang and Zhang, Zhiguo and Fu, Hong and Zhang, Li and Li, Linling and Huang, Gan and Li, Fali and Yang, Xin and Dong, Yining and Zhang, Yuan-Ting and Liang, Zhen},
+  journal={IEEE Transactions on Affective Computing}, 
+  title={PR-PL: A Novel Prototypical Representation Based Pairwise Learning Framework for Emotion Recognition Using EEG Signals}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-14},
+  doi={10.1109/TAFFC.2023.3288118}}
