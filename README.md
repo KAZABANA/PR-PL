@@ -1,7 +1,7 @@
 PR-PL: A Novel Transfer Learning Framework with Prototypical Representation based Pairwise Learning for EEG-Based Emotion Recognition
 =
 * A Pytorch implementation of our paper "PR-PL: A Novel Prototypical Representation Based Pairwise Learning Framework for Emotion Recognition Using EEG Signals." <br> 
-* [arxiv](https://arxiv.org/abs/2202.06509)
+* [IEEE TAFFC](https://ieeexplore.ieee.org/document/10160130)
 
 # Installation:
 * Python 3.7
